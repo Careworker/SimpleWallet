@@ -1,6 +1,6 @@
 # Simple Wallet
 The Simple Wallet is a minimalist Bitcoin wallet that lets you securely create Bitcoin addresses, sign messages, and validate addresses. Simple Wallet is completely open source and transparent; its simplicity minimizes its attack surface. Use this application on an offline computer to create fully secure Bitcoin private keys that will never be exposed to the internet. See the "Documentation" section of this guide for more details.
-* Github repo: https://github.com/ArcticTechnology/SimpleWallet
+* Github repo: https://github.com/Careworker/SimpleWallet
 * PyPi: https://pypi.org/project/SimpleWallet/
 
 ## Prerequisites
@@ -11,7 +11,7 @@ For Mac and Linux, this app should work out of the box on either the Mac or Linu
 Requirements:
 * Python3 (version 3.10 or greater) - Install Python3 here: [https://www.python.org/downloads/]. Check version with: ```python3 --version```.
 * Pip3 (version 23.0 or greater) - Make sure to install python3-pip in order to use pip install. Check version with: ```pip3 --version```.
-* Libsecp256k1-0 (version 0.3.0 or greater) or the equivalent - Libsecp265k1-0 is compiled libsecp256k1 python package that allows you to use the secp256k1 binary. See this for details: https://github.com/bitcoin-core/secp256k1. By installing Simple Wallet, it should install the libsecp256k1-0 package by default (https://github.com/ArcticTechnology/libsecp256k1-0). Libsecp265k1-0 contains the precompiled secp256k1 binaries and a Dockerized compiler that allows you to compile your own binaries. It is recommended that you compile your own binaries so that you don't need put your trust into our precompiled versions.
+* Libsecp256k1-0 (version 0.3.0 or greater) or the equivalent - Libsecp265k1-0 is compiled libsecp256k1 python package that allows you to use the secp256k1 binary. See this for details: https://github.com/bitcoin-core/secp256k1. By installing Simple Wallet, it should install the libsecp256k1-0 package by default (https://github.com/Careworker/libsecp256k1-0). Libsecp265k1-0 contains the precompiled secp256k1 binaries and a Dockerized compiler that allows you to compile your own binaries. It is recommended that you compile your own binaries so that you don't need put your trust into our precompiled versions.
 
 ## Installation
 There are a couple of options to install this app:
@@ -21,7 +21,7 @@ pip3 install SimpleWallet
 ```
 * Local Install - Alternatively, you can download or git clone the Github repo and install it locally with the following:
 ```
-git clone https://github.com/ArcticTechnology/SimpleWallet.git
+git clone https://github.com/Careworker/SimpleWallet.git
 cd SimpleWallet
 pip3 install -e .
 ```
