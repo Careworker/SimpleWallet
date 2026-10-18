@@ -8,7 +8,7 @@ build-backend = "setuptools.build_meta"
 name = "SimpleWallet"
 version = "1.0.0"
 authors = [
-    { name = "ArcticTechnology", email = "arctic.technology.mail@gmail.com" },
+    { name = "Careworker", email = "13512073+Careworker@users.noreply.github.com" },
 ]
 description = "Simple wallet for Bitcoin."
 keywords = [
@@ -47,7 +47,7 @@ file = "README.md"
 content-type = "text/markdown"
 
 [project.urls]
-Homepage = "https://github.com/ArcticTechnology/SimpleWallet"
+Homepage = "https://github.com/Careworker/SimpleWallet"
 
 [project.scripts]
 simplewallet = "simplewallet.main:main"
